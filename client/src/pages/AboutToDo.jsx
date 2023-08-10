@@ -1,13 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 
 const AboutToDo = () => {
+  const [headline, setHeadline] = useState("Organisiere endlich dein Leben 😃");
+
+  const [underline, setUnderline] = useState(
+    "Werde organisiert und ausgeglichen mit Todo App. Die Nr. 1 unter den Apps für To-do-Listen.",
+  );
+
   return (
     <div className="pt-4 flex flex-col space-y-4">
-      <h1 className="text-5xl mb-5">Organisiere endlich dein Leben 😃</h1>
-      <p className="text-2xl">
-        Werde organisiert und ausgeglichen mit Todo App. Die Nr. 1 unter den
-        Apps für To-do-Listen.
-      </p>
+      <h1 className="text-5xl mb-5">{headline}</h1>
+      <p className="text-2xl">{underline}</p>
       <div className="text-l px-10 flex flex-col space-y-2">
         <p>
           Willkommen zur ToDo App! Unsere App wurde entwickelt, um dir bei der
