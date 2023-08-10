@@ -4,7 +4,7 @@ const AboutToDo = () => {
   const [headline, setHeadline] = useState("Organisiere endlich dein Leben 😃");
 
   const [underline, setUnderline] = useState(
-    "Werde organisiert und ausgeglichen mit Todo App. Die Nr. 1 unter den Apps für To-do-Listen.",
+    "Werde organisiert und ausgeglichen mit Todo App. Die Nr. 1 unter den Apps für To-Do-Listen.",
   );
 
   return (
